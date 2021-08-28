@@ -1,0 +1,7 @@
+C:\Users\JON\Desktop\programs\github1\madlibs1\bin\Debug\madlibs1.exe.config
+C:\Users\JON\Desktop\programs\github1\madlibs1\bin\Debug\madlibs1.exe
+C:\Users\JON\Desktop\programs\github1\madlibs1\bin\Debug\madlibs1.pdb
+C:\Users\JON\Desktop\programs\github1\madlibs1\obj\Debug\madlibs1.csproj.AssemblyReference.cache
+C:\Users\JON\Desktop\programs\github1\madlibs1\obj\Debug\madlibs1.csproj.CoreCompileInputs.cache
+C:\Users\JON\Desktop\programs\github1\madlibs1\obj\Debug\madlibs1.exe
+C:\Users\JON\Desktop\programs\github1\madlibs1\obj\Debug\madlibs1.pdb
