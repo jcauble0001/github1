@@ -91,12 +91,47 @@ namespace madlibs1
 
             Clear();
 
-            WriteLine($"This morning I saw a {entry1} in a {entry2}.");
-            WriteLine($"The first thing I wanted to do was {entry3} a {entry4},");
-            WriteLine($"but thought the more reasonable act would be to {entry5}.");
-            WriteLine($"So I grabbed the closest {entry6} and {entry7} began to {entry8} it.");
-            WriteLine($"Only then did I realize that there was a(n) {entry9} {entry10}");
-            WriteLine("wateching from afar.");
+            Write($"This morning I saw a ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry1} ");
+            ForegroundColor = ConsoleColor.White;
+            Write($"in a ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry2}");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine($".");
+            Write($"The first thing I wanted to do was ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry3} ");
+            ForegroundColor = ConsoleColor.White;
+            Write($"a ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry4}");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine($",");
+            Write($"but thought the more reasonable act would be to ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry5}");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine($".");
+            Write($"So I grabbed the closest ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry6} ");
+            ForegroundColor = ConsoleColor.White;
+            Write($"and ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry7} ");
+            ForegroundColor = ConsoleColor.White;
+            Write($"began to ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry8} ");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine("it.");
+            Write($"Only then did I realize that there was a(n) ");
+            ForegroundColor = ConsoleColor.Yellow;
+            Write($"{entry9} {entry10} ");
+            ForegroundColor = ConsoleColor.White;
+            WriteLine("watching from afar.");
             int a = 0;
             while (a < 3)
             {
