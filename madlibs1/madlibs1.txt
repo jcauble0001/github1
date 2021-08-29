@@ -40,39 +40,39 @@ namespace madlibs1
 
             Clear();
 
-            Write("Enter a proper noun:  ");
+            Write("Enter a noun:  ");
             entry1 = ReadLine();
             WriteLine();
 
-            Write("Enter a verb:  ");
+            Write("Enter a noun:  ");
             entry2 = ReadLine();
             WriteLine();
 
-            Write("Enter a noun:  ");
+            Write("Enter a verb:  ");
             entry3 = ReadLine();
             WriteLine();
 
-            Write("Enter an adjective :  ");
+            Write("Enter a noun:  ");
             entry4 = ReadLine();
             WriteLine();
 
-            Write("Enter a noun:  ");
+            Write("Enter a verb:  ");
             entry5 = ReadLine();
             WriteLine();
 
-            Write("Enter a verb:  ");
+            Write("Enter a noun:  ");
             entry6 = ReadLine();
             WriteLine();
 
-            Write("Enter an adjective:  ");
+            Write("Enter an adverb:  ");
             entry7 = ReadLine();
             WriteLine();
 
-            Write("Enter a noun:  ");
+            Write("Enter a verb:  ");
             entry8 = ReadLine();
             WriteLine();
 
-            Write("Enter an adverb:  ");
+            Write("Enter an adjective:  ");
             entry9 = ReadLine();
             WriteLine();
 
@@ -91,8 +91,12 @@ namespace madlibs1
 
             Clear();
 
-            WriteLine($"His name was {entry1}");
-
+            WriteLine($"This morning I saw a {entry1} in a {entry2}.");
+            WriteLine($"The first thing I wanted to do was {entry3} a {entry4},");
+            WriteLine($"but thought the more reasonable act would be to {entry5}.");
+            WriteLine($"So I grabbed the closest {entry6} and {entry7} began to {entry8} it.");
+            WriteLine($"Only then did I realize that there was a(n) {entry9} {entry10}");
+            WriteLine("wateching from afar.");
             int a = 0;
             while (a < 3)
             {
